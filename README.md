@@ -1,8 +1,11 @@
 # NexPay Payments API <small>Alpha 1.0</small>
-
+![Twitter](https://img.shields.io/twitter/follow/nexpayxyz?style=social)
+![website](https://img.shields.io/website?down_color=red&down_message=Offline&style=flat-square&up_color=green&up_message=Online&url=https%3A%2F%2Fnexpay.xyz)
+![status](https://img.shields.io/uptimerobot/status/m787630985-b0cb5ac7af9a089ff4178c3e?style=flat-square)
+![GitHub](https://img.shields.io/github/license/NexPay/NexPay-api?style=flat-square)
 > Get started with NexPay Payments API to accept NexPay cards directly on your website or app. This documentation is currently still being developed and may not be fully accurate.
 
-!> **Heads-up!** The NexPay Payments API is currently in alpha and must not be used in a production environment.
+> **Heads-up!** The NexPay Payments API is currently in alpha and must not be used in a production environment.
 
 ## **Getting started**
 
@@ -85,7 +88,7 @@ The NexPay API will always return a JSON response. More options like XML will be
 
 ### Creating the intent
 
-!> **Heads-up!** NexPay does not allow recurring payments or allow merchants to store card information. Doing so is a breach of the merchant agreement and may result. Every NexPay card payment must be authorized by the cardholder.
+> **Heads-up!** NexPay does not allow recurring payments or allow merchants to store card information. Doing so is a breach of the merchant agreement and may result. Every NexPay card payment must be authorized by the cardholder.
 
 1. Start by collecting the amount from the user or by setting this directly on the server side.
 2. Collect the users NexPay card number, expiry date and CVV. This can be done with a simple form.
